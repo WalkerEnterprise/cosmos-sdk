@@ -6,7 +6,7 @@ require (
 	cosmossdk.io/indexer/postgres v0.0.0-00010101000000-000000000000
 	cosmossdk.io/schema v0.4.0
 	cosmossdk.io/schema/testing v0.0.0
-	github.com/fergusstrange/embedded-postgres v1.30.0
+	github.com/fergusstrange/embedded-postgres v1.32.0
 	github.com/hashicorp/consul/sdk v0.16.1
 	github.com/jackc/pgx/v5 v5.7.1
 	github.com/stretchr/testify v1.10.0
