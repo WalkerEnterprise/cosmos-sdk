@@ -5,7 +5,7 @@ go 1.23
 require (
 	cosmossdk.io/core v1.0.0-alpha.6
 	github.com/tidwall/btree v1.7.0
-	go.uber.org/mock v0.5.0
+	go.uber.org/mock v0.5.2
 )
 
 require cosmossdk.io/schema v0.4.0 // indirect
