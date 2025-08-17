@@ -10,7 +10,7 @@ require (
 	cosmossdk.io/core/testing v0.0.0-20241108153815-606544c7be7e
 	cosmossdk.io/depinject v1.1.0
 	cosmossdk.io/log v1.5.0
-	cosmossdk.io/math v1.4.0
+	cosmossdk.io/math v1.5.3
 	cosmossdk.io/store v1.1.1
 	cosmossdk.io/tools/confix v0.0.0-20230613133644-0a778132a60f
 	cosmossdk.io/x/accounts v0.0.0-20240913065641-0064ccbce64e
@@ -126,7 +126,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/flatbuffers v24.3.25+incompatible // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
 	github.com/google/s2a-go v0.1.8 // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -191,7 +191,7 @@ require (
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
-	github.com/rogpeppe/go-internal v1.12.0 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/rs/cors v1.11.1 // indirect
 	github.com/rs/zerolog v1.33.0 // indirect
 	github.com/sagikazarmark/locafero v0.4.0 // indirect
