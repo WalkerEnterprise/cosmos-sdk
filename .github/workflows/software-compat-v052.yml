@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           sparse-checkout: |
             .github/scripts/check-compat.sh
@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ success() }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Get previous workflow status
         uses: ./.github/actions/last-workflow-status
         id: last_status
