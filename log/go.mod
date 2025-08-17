@@ -3,15 +3,14 @@ module cosmossdk.io/log
 go 1.21
 
 require (
-	github.com/bytedance/sonic v1.12.5
+	github.com/bytedance/sonic v1.14.0
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.33.0
 )
 
 require (
-	github.com/bytedance/sonic/loader v0.2.0 // indirect
-	github.com/cloudwego/base64x v0.1.4 // indirect
-	github.com/cloudwego/iasm v0.2.0 // indirect
+	github.com/bytedance/sonic/loader v0.3.0 // indirect
+	github.com/cloudwego/base64x v0.1.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
