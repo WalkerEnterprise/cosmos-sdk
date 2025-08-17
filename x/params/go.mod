@@ -9,7 +9,7 @@ require (
 	cosmossdk.io/depinject v1.1.0
 	cosmossdk.io/errors v1.0.1
 	cosmossdk.io/log v1.5.0
-	cosmossdk.io/math v1.4.0
+	cosmossdk.io/math v1.5.3
 	cosmossdk.io/store v1.1.1-0.20240418092142-896cdf1971bc
 	cosmossdk.io/x/gov v0.0.0-20230925135524-a1bc045b3190
 	github.com/cometbft/cometbft/api v1.0.0-rc2
@@ -80,7 +80,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/flatbuffers v24.3.25+incompatible // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/gorilla/handlers v1.5.2 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
@@ -120,7 +120,7 @@ require (
 	github.com/prometheus/common v0.61.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
-	github.com/rogpeppe/go-internal v1.12.0 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/rs/zerolog v1.33.0 // indirect
 	github.com/sagikazarmark/locafero v0.4.0 // indirect
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
