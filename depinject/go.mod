@@ -9,7 +9,7 @@ require (
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	google.golang.org/grpc v1.68.1
 	google.golang.org/protobuf v1.35.2
-	gotest.tools/v3 v3.5.1
+	gotest.tools/v3 v3.5.2
 	sigs.k8s.io/yaml v1.4.0
 )
 
