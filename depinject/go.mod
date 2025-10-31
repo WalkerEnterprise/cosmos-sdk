@@ -1,6 +1,6 @@
 module cosmossdk.io/depinject
 
-go 1.21
+go 1.23
 
 require (
 	github.com/cosmos/cosmos-proto v1.0.0-beta.5
@@ -8,14 +8,14 @@ require (
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	google.golang.org/grpc v1.68.1
-	google.golang.org/protobuf v1.35.2
+	google.golang.org/protobuf v1.36.10
 	gotest.tools/v3 v3.5.1
 	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
