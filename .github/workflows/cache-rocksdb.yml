@@ -19,7 +19,7 @@ jobs:
       cache-hit: ${{ steps.cache-rocksdb.outputs.cache-hit }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Get rocksdb version
         run: ./.github/scripts/get-rocksdb-version.sh
@@ -43,7 +43,7 @@ jobs:
     needs: check-cache-rocksdb
     if: needs.check-cache-rocksdb.outputs.cache-hit != 'true'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Get rocksdb version
         run: ./.github/scripts/get-rocksdb-version.sh
