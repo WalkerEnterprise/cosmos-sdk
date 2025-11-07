@@ -8,7 +8,7 @@ require (
 	cosmossdk.io/schema v0.4.0
 	github.com/cosmos/gogoproto v1.7.0
 	github.com/stretchr/testify v1.10.0
-	github.com/tidwall/btree v1.7.0
+	github.com/tidwall/btree v1.8.1
 	google.golang.org/protobuf v1.35.2
 	pgregory.net/rapid v1.1.0
 )
